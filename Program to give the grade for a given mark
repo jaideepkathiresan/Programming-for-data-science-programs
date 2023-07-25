@@ -1,0 +1,17 @@
+# ---------------------------Program to give the grade for a given mark-----------------------------------------------------------
+
+'''
+grade=int(input("Enter the grade you have received\n"))
+if grade>=90 :
+    print("you have got S grade")
+elif grade>=80:
+    print("you have got A grade")
+elif grade>=70:
+    print("you have got B grade")
+elif grade>=60:
+    print("you have got C grade")
+elif grade>=50:
+    print("you have got D grade")
+else:
+    print("you have failed with a N grade")
+'''
