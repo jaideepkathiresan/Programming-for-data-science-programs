@@ -1,0 +1,16 @@
+"""
+hours= int(input("Enter the number of browsing hours\n"))
+if hours>7:
+    print("invalid input")
+    exit(0)
+minutes=int(input("enter the number of minutes you have used in addition to that\n"))
+if hours>7:
+    print("invalid input")
+elif hours>=5 and hours<=7:
+    amount=200
+    hours=hours-5
+    netpay=hours*50+minutes+amount
+elif hours<5:
+    netpay=hours*50+minutes
+print(netpay)
+"""
