@@ -1,0 +1,16 @@
+
+"""
+--------------------Program to find whether u have passed in a lab course--------------------------------------------
+ if u have scored above 50 u would have pased the lab course
+ if u had got close to 50 u have just passed
+ if u had got less than 50 u have failed the lab component
+"""
+'''
+mark=int(input("Enter the grade you have received\n"))
+if mark<50 :
+    print("you have failed the course")
+elif mark==50 :
+    print("you have just passed in this course")
+else :
+    print("You have passed in this course")
+'''
