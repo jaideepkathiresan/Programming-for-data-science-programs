@@ -1,0 +1,18 @@
+"""
+-----------------------program to find whether a student has scored more than 90 in two exams----------------------------------------
+                  if both above or equal to 90 we print excellent
+                  if one of the marks are above or equal to 90 we print good
+                  if both are below 90 we print needs to improve
+"""
+'''
+mark1=int(input("Enter the mark1\n"))
+mark2=int(input("Enter the mark2\n"))
+
+if(mark1>=90 and mark2>=90):
+    print("Excellent")
+elif(mark1>=90 or mark2>=90):
+    print("good")
+else :
+    print("need to improve")
+
+'''
