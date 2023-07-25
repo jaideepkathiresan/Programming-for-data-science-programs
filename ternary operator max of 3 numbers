@@ -1,0 +1,7 @@
+'''
+a=int(input("Enter the first number\n"))
+b=int(input("Enter the second number\n"))
+c=int(input("Enter the third number\n"))
+maxnum = a if (a>b and a>c) else (b if b>c else c)
+print(maxnum)
+'''
