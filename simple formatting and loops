@@ -1,0 +1,12 @@
+'''
+import math
+radius=float(input("Enter the radius of the circle\n"))
+area=math.pi*radius*radius
+print(format(area,'.2f'))
+'''
+'''
+a=0
+while(a<10):
+    print(a,end=' ')
+    a+=1
+    '''
