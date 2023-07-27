@@ -1,0 +1,14 @@
+numberofstu=float(input("enter the no of students\n"))
+i=0
+total=0
+while(i<numberofstu):
+    b=int(input("Enter the marks for the following next student    "))
+    if(b<0 or b>100):
+        print("entered an invalid input")
+        exit(0)
+    else:
+        total=total+b
+    i+=1
+
+average=total/numberofstu
+print("The average of the class is ",format(average,'.2f'))
