@@ -1,0 +1,5 @@
+n=int(input("How many lines do u wanna print the staircase hash"))
+for i in range(0,n):
+    for a in range(0,i+1):
+            print("#",end='')
+    print()
