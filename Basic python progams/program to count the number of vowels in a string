@@ -1,0 +1,4 @@
+name=input("Enter your name")
+name=name.lower()
+total=name.count('a')+name.count('e')+name.count('i')+name.count('o')+name.count('u')
+print(total)
