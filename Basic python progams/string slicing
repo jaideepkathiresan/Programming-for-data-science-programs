@@ -1,0 +1,5 @@
+string="jaideep"
+print(string[::])
+print(string[2::2])
+print(string[::-1])
+print(string[1:4:])
