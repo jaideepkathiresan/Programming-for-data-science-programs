@@ -1,0 +1,5 @@
+'''
+name=input("Enter your name  ")
+name=name.lower()
+print(name.count('a'))
+'''
