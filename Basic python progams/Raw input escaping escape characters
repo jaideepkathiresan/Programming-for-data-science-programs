@@ -1,0 +1,6 @@
+#----------------------------Raw input escaping escape characters
+'''
+string1="a\n\ob\on\oc"
+print(string1)
+print(len(string1))
+'''
