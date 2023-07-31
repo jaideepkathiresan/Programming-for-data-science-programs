@@ -1,0 +1,11 @@
+Pan_number=input("Enter your pan number")
+for i in range(1,11):
+    n=Pan_number
+    if (len(n)==10 and (n[0:5].isalpha()) and (n[5:8].isdigit()) and (n[len(n)-1:].isalpha()) and n[0:5].isupper() and n[len(n)-1:].isupper()):
+        flag=1       
+    else:
+       flag=0
+if(flag==1):
+    print("Valid Pan Number")
+else:
+    print("Invalid Pan number")
