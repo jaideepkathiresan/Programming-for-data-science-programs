@@ -1,0 +1,6 @@
+#---------------------------------printing name one by one
+'''
+name=input("Enter your name  ")
+for i in (name):
+    print (i)
+'''
