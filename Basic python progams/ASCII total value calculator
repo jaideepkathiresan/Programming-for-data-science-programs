@@ -1,0 +1,6 @@
+name=input("Enter your name  ")
+total=0
+for i in (name):
+    total+=ord(i)
+
+print(total)
