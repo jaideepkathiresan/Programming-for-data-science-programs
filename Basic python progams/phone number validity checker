@@ -1,0 +1,6 @@
+import re
+phone_number=input("Enter your phone number to be checked valid or not")
+if re.match("^[1-9][0-9]{9}$",reg_number):
+    print("The input is a valid registration number")
+else:
+    print("No invalid")
