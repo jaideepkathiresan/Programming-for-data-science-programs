@@ -1,0 +1,6 @@
+import re
+pan_number=input("Enter your pan number to be checked valid or not ")
+if re.match("^[A-Z]{5}[0-9]{4}[A-Z]$",pan_number):
+    print("The input is a valid PAN number")
+else:
+    print("No invalid")
