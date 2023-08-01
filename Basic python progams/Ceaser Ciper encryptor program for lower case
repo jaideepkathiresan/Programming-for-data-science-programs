@@ -1,0 +1,11 @@
+text=input("Enter the text to be encrypted  ")
+key=int(input("Enter the shift value "))
+text=text.lower()
+target =""
+for i in text:
+    shift=ord(i) + key
+    if shift>ord('z'):
+        shift=shift-26
+    target=target+chr(shift)
+      
+print(target)
