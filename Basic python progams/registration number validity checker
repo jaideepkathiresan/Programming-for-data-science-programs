@@ -1,0 +1,6 @@
+import re
+reg_number=input("Enter your registration number to be checked valid or not")
+if re.match("^[1-9][0-9][a-zA-Z]{3}[0-9]{4}$",reg_number):
+    print("The input is a valid registration number")
+else:
+    print("No invalid")
