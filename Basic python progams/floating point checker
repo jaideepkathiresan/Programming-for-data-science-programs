@@ -1,0 +1,6 @@
+import re
+number_checker=input("Enter a floating point or integer to validate")
+if re.match("^\-?[1-9][0-9]*\.?[0-9]*$",number_checker):
+    print("Valid floating point number or integer")
+else:
+    print("Invalid floating point number or integer")
