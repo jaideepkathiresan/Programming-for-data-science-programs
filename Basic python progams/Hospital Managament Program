@@ -1,0 +1,9 @@
+t=((20,30),(35.5,40),(12,15),(120,150),(80,120))
+for i in range(len(t)):
+    check=input("Enter the value of the test performed: ")
+    if check=='N':
+        print("Test Not Performed",)
+    elif float(check)<t[i][0] or float(check)>t[i][1]:
+        print("Abnormal condition",)
+    else:
+        print("Normal Condition",)
