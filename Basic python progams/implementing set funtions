@@ -1,0 +1,26 @@
+n1=int(input("Enter the number of values u want to add to the set:  "))
+
+n2=int(input("Enter the number of values u want to add to the second set:  "))
+
+relation=set()
+
+relation2=set()
+
+print("Enter the elements of the first set")
+
+for i in range (n1):
+    relation.add(int(input("Enter a value:   ")))
+    
+print("Enter the elements of the second set")
+
+for i in range (n2):
+    relation2.add(int(input("Enter a value:   ")))
+    
+print("The union on these sets are\n")
+print(relation|relation2)
+
+print("The intersection of these sets are\n")
+print(relation&relation2)
+
+print("The difference of these sets are\n")
+print(relation-relation2)
