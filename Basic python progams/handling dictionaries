@@ -1,0 +1,9 @@
+students={"22MIA1196":"Jaideep Vishnu Kathiresan","22MIA1100":"Surya Narayanan","22MIA1101":"Malavika"}
+print(students)
+print(students.values())
+print()
+print(students.keys())
+print()
+print(students.items())
+print()
+print(students["22MIA1196"])
