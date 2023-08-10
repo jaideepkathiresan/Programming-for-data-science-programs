@@ -1,0 +1,12 @@
+dictionary={}
+n1=int(input("Enter the number of values u want to add to the dictionary:  "))
+for i in range (n1):
+    key=input("Enter the key you want to add in the dictionary:   ")
+    print("Enter the name,cat1 mark,cat2 mark,fat mark,marks")
+    l=[]
+    for i in range(5):
+        l.append(input())
+    dictionary[key]=l
+    
+for key in dictionary.items():
+    print(key)
